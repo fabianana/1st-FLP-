@@ -33,7 +33,7 @@ h1,
 h2,
 h4 {
     font-family: 'PT Sans Narrow', Arial, sans-serif;
-    text-transform: uppercase;
+    text-transform: Capatilized;
     font-weight: 700;
 }
 
@@ -46,7 +46,7 @@ p {
 
     transition: all 300ms ease-in-out;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .btn:hover {
@@ -64,7 +64,7 @@ p {
 .navbar {
     
     background-color: black;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-weight: 100;
 }
@@ -169,4 +169,195 @@ p {
 	padding: 10px;
 	text-align: center;
 }
+
+/*CONTACT*/
+
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.contact h2 {
+    
+    color: #d95043;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.contact span {
+    
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color:#d95043;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    
+    background-color: #a85959 !important;
+    color: #fff !important;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    
+    padding: 30px;
+    color: #cccccc;
+    background-color: #222222;
+}
+
+
+.footer .social {
+    
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+.footer input {
+    
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: #000;
+}
+
+.footer .btn {
+    
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
+
+/*supporters*/
+
+
+.supporters {
+    
+    padding: 50px 0 80px;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+}
+
+.supporters h2 {
+    
+    color: #5e5e5e;
+}
+
+.supporters p {
+    
+    padding-bottom: 40px;
+}
+
+.supporters img {
+    img-align: center;
+    width: 250px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+}
+
+
+.supporters li:hover img {
+    
+    opacity: 1;
+}
+
+
+/*Aboutus*/
+
+img{
+    text-align: center;
+}
+    
+    p{
+        color: #ffffff;
+        font-size: medium;
+        font-style: italic;
+        font-family: sans-serif;
+        font-weight:70;
+        margin-left: auto;
+        padding-top:0;
+        
+    }
+    
+    /*TEAM*/
+
+.team {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.team strong,
+.team h2,
+.team h4 {
+    
+    margin: 20px 0 20px;
+    color: #fff;
+}
+
+
+.team p {
+    
+    color: #fff;
+}
+
+.team img {
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.team i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #d95043;
+    color: #fff;
+}
+
+.team a:hover i {
+    
+    background-color: #e6e600 ;
+}
+
 
